@@ -22,6 +22,7 @@ function hideLoading () {
   domCache.popup.removeAttribute('aria-busy')
   domCache.popup.removeAttribute('data-loading')
   domCache.confirmButton.disabled = false
+  domCache.denyButton.disabled = false
   domCache.cancelButton.disabled = false
 }
 
