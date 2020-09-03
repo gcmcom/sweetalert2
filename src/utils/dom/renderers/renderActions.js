@@ -34,6 +34,7 @@ export const renderActions = (instance, params) => {
 
   if (params.reverseButtons) {
     confirmButton.parentNode.insertBefore(cancelButton, confirmButton)
+    confirmButton.parentNode.insertBefore(denyButton, confirmButton)
   }
 }
 
