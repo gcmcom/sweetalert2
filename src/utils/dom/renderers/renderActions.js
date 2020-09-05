@@ -10,7 +10,7 @@ export const renderActions = (instance, params) => {
   const cancelButton = dom.getCancelButton()
 
   // Actions (buttons) wrapper
-  if (!params.showConfirmButton && !params.showCancelButton) {
+  if (!params.showConfirmButton && !params.showDenyButton && !params.showCancelButton) {
     dom.hide(actions)
   }
 
